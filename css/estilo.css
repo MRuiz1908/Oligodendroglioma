@@ -1,0 +1,40 @@
+nav{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+nav a{
+    letter-spacing: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+#main .carousel-inner img{
+    max-height:500vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+#carouselExampleSlidesOnly{
+    position: relative;
+}
+
+#carouselExampleSlidesOnly .overlay{
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#carouselExampleSlidesOnly .overlay .container,
+#carouselExampleSlidesOnly .overlay .row{
+    height: 100%;
+}
+
+.final{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
